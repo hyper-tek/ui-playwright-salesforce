@@ -1,0 +1,37 @@
+  #Page url
+url : https://login.salesforce.com/
+  
+  # Browser - allowed values [chrome, chromium, edge, firefox, safari]
+browser : chrome
+  
+  # To Run test in headless mode
+headless : false
+  
+  # App credentials - username / password
+username : username-xyw4@force.com
+password : pwd
+
+  # Test execution Extent report file name
+extentReportPath : test-results/TestReport.html
+
+#Playwright Specific Configuration
+
+  # Option to enable video recording of execution
+enableVideoRecording : true
+  
+  # Path to save video recording files
+videoRecordingDirectory : test-results/scriptRecordVideos/
+  
+  # Option to enable tracing (Capture HAR, Screenshots, events) of execution
+enableTracing : false
+  
+  # Path to save tracing zip file
+tracingDirectory : test-results/traces/
+  
+  # To set View Port - Width
+viewPortWidth : 1280
+  
+  # To set View Port - Height
+viewPortHeight : 1024
+  
+
